@@ -22,10 +22,14 @@ Getting Started
 
 ✅ Steps: -
 
-•	Launch EC2 Instance with Ubuntu 22.04 LTS OS.  Add the script from enable_ssh_ubuntu22.0 to enable SSH password authentication under User data block while launching the instance.
+•	Launch EC2 Instance with Ubuntu 22.04 LTS OS.  
 
 •	Connect to the instance with SSH.
-     
+
+•	Run the script enable_ssh_ubuntu22.0.sh to enable SSH password authentication .
+
+      $sh enable_ssh_ubuntu22.0.sh
+      
 •	Clone this repository to your EC2 instance
 
      $git clone https://github.com/mayuri2995/Containerized-Web-Application-Deployment-with-Docker-and-Docker-Compose.git
