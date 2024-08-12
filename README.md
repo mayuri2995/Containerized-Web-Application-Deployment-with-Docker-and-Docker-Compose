@@ -12,11 +12,11 @@ Project Overview
 
 •	3 Docker container using docker-compose.
 
-     MySQL with pre-configured environment variables for database name, user, and password to ensure smooth integration with WordPress.
+     1.MySQL with pre-configured environment variables for database name, user, and password to ensure smooth integration with WordPress.
              
-     WordPress incorporating necessary PHP extensions and configurations tailored to the project’s needs.
+     2.WordPress incorporating necessary PHP extensions and configurations tailored to the project’s needs.
              
-     phpMyAdmin allowing for easy web-based management of the MySQL database.
+     3.phpMyAdmin allowing for easy web-based management of the MySQL database.
 
 Getting Started
 
