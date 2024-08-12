@@ -25,6 +25,10 @@ Getting Started
 •	Launch EC2 Instance with Ubuntu 22.04 LTS OS.  Add the script from enable_ssh_ubuntu22.0 to enable SSH password authentication under User data block while launching the instance.
 
 •	Connect to the instance with SSH.
+     
+•	Clone this repository to your EC2 instance
+
+     $git clone https://github.com/mayuri2995/Containerized-Web-Application-Deployment-with-Docker-and-Docker-Compose.git
 
 •	Now use below commands to Install docker and docker-compose using script ubuntu22.0_docker_and_docker_compose_install.sh
 
