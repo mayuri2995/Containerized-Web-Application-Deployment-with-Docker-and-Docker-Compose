@@ -40,7 +40,7 @@ Getting Started
 
       $docker-compose up -d
 
-      ![image](https://github.com/user-attachments/assets/3027d5ff-fa5a-4aca-86be-57c05ebb8f2e)
+     https://github.com/user-attachments/assets/3027d5ff-fa5a-4aca-86be-57c05ebb8f2e
 
  
 •	When you hit this command, it actually searches for docker-compose.yaml file in the running directory and it executes all the instructions given in YAML file one by one, it will create container application, network, and volume, based on given instruction in YAML file.
