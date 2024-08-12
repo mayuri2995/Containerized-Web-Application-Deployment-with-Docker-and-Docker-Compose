@@ -8,9 +8,9 @@ Project Overview
 
 ➡️ We are going to create :-
 
-     •	Ubuntu based EC2 Instance ( ubuntu 22.04 LTS ).
+•	Ubuntu based EC2 Instance ( ubuntu 22.04 LTS ).
 
-     •	3 Docker container using docker-compose.
+•	3 Docker container using docker-compose.
 
              o	MySQL with pre-configured environment variables for database name, user, and password to ensure smooth integration with WordPress.
              
