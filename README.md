@@ -1,7 +1,9 @@
 Containerized Web Application Deployment with Docker and Docker Compose
 
 Project Overview
+
 🚀 Developed a containerized web application environment using Docker and Docker Compose, featuring WordPress, MySQL, and phpMyAdmin. 
+
 🚀 The project focused on creating Docker images and orchestrating them using Docker Compose to provide a scalable, consistent, and easily deployable setup for web development and database management.
 
 ➡️ We are going to create :-
