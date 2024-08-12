@@ -12,11 +12,11 @@ Project Overview
 
 •	3 Docker container using docker-compose.
 
-     o	MySQL with pre-configured environment variables for database name, user, and password to ensure smooth integration with WordPress.
+     MySQL with pre-configured environment variables for database name, user, and password to ensure smooth integration with WordPress.
              
-     o	WordPress incorporating necessary PHP extensions and configurations tailored to the project’s needs.
+     WordPress incorporating necessary PHP extensions and configurations tailored to the project’s needs.
              
-     o	phpMyAdmin allowing for easy web-based management of the MySQL database.
+     phpMyAdmin allowing for easy web-based management of the MySQL database.
 
 Getting Started
 
@@ -40,8 +40,6 @@ Getting Started
 
       $docker-compose up -d
 
-     https://github.com/user-attachments/assets/3027d5ff-fa5a-4aca-86be-57c05ebb8f2e
-
  
 •	When you hit this command, it actually searches for docker-compose.yaml file in the running directory and it executes all the instructions given in YAML file one by one, it will create container application, network, and volume, based on given instruction in YAML file.
 
@@ -49,14 +47,10 @@ Getting Started
 
       $docker container ls
 
-      ![image](https://github.com/user-attachments/assets/c1cc4003-1a1c-4639-85ce-7e6abca370a5)
-
 
 •	Now try to access WordPress URL  Public IP of EC2 :8000
 
       Setup WordPress username password and you will able to access your WordPress application to design your website.
-
-      ![image](https://github.com/user-attachments/assets/eaece69b-5513-4060-bffd-84d4e782b767)
 
   
 
@@ -66,7 +60,6 @@ Getting Started
 
       MYSQL_PASSWORD: my_wp_user_password
 
-      ![image](https://github.com/user-attachments/assets/d9b6f896-0089-4097-9db7-8c3f73151608)
 
 
   
