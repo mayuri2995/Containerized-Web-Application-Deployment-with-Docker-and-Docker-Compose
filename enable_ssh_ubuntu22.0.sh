@@ -27,7 +27,7 @@ sudo systemctl restart sshd
 echo "User $username created with password, full sudo permissions, and SSH login setup."
 To use this script as user data when launching an EC2 instance:
 
-Open the EC2 console and go through the steps to launch an instance.
-In the "Configure Instance" step, find the "Advanced Details" section.
-In the "User data" field, paste the script.
-This will run the script on the first boot of the instance, setting up the user as required
+# Open the EC2 console and go through the steps to launch an instance.
+# In the "Configure Instance" step, find the "Advanced Details" section.
+# In the "User data" field, paste the script.
+# This will run the script on the first boot of the instance, setting up the user as required
