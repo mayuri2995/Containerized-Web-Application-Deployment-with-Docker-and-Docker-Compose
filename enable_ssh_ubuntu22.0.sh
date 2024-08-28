@@ -25,7 +25,7 @@ sudo sed -i 's/^PasswordAuthentication\s*no/PasswordAuthentication yes/' /etc/ss
 sudo systemctl restart sshd
 
 echo "User $username created with password, full sudo permissions, and SSH login setup."
-To use this script as user data when launching an EC2 instance:
+#To use this script as user data when launching an EC2 instance:
 
 # Open the EC2 console and go through the steps to launch an instance.
 # In the "Configure Instance" step, find the "Advanced Details" section.
